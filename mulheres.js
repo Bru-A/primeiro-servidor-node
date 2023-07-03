@@ -2,7 +2,7 @@
 
 const express = require("express")
 const router = express.Router()
-const cors = require('') //trazendo pacote cors q permite consumir api no front
+const cors = require('cors') //trazendo pacote cors q permite consumir api no front
 
 //ligando o BD e chamando a função q esta nesse arquivo
 const conectaBancoDeDados = require('./bancoDeDados')
